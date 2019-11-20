@@ -10,7 +10,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { ErrosModule } from './erros/erros.module';
 import { TemplateModule } from './template/template.module';
 import { ToastModule } from 'primeng/toast';
-import { LoginModule } from './login/login.module';
 
 registerLocaleData(localePt, 'pt');
 
@@ -25,7 +24,6 @@ registerLocaleData(localePt, 'pt');
     SharedModule,
     ErrosModule,
     TemplateModule,
-    LoginModule,
     ToastModule,
     BrowserAnimationsModule
   ],
