@@ -24,7 +24,6 @@ export class SidebarComponent implements OnInit {
                    this.itensAdmin = [{
                        label: 'Administrador',
                        items: [
-                           {label: 'Tipos de Pagamentos', icon: '',  routerLink: '/admin/tipos-pagamentos'},
                            {label: 'Supermercados', icon: '',  routerLink: '/admin/supermercados'}
                        ]
                    }];
@@ -32,7 +31,6 @@ export class SidebarComponent implements OnInit {
                        label: 'Supermercado',
                        items: [
                            {label: 'Pedidos', icon: '',  routerLink: '/supermercados/' +  this.user.targetId + '/pedidos/pendentes'},
-                           {label: 'Estoque', icon: '',  routerLink: '/supermercados/' + this.user.targetId + '/estoque'}
                        ]
                    }];
                }
