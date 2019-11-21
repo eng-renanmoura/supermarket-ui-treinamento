@@ -13,12 +13,17 @@ import { SupermercadoComponent } from './supermercado/supermercado.component';
 import { SharedModule } from '../shared/shared.module';
 import { TabViewModule } from 'primeng/tabview';
 import { DialogModule } from 'primeng/dialog';
+import { ResumoComponent } from './resumo/resumo.component';
+import { PagamentoComponent } from './pagamento/pagamento.component';
+import { DropdownModule } from 'primeng/dropdown';
 
 
 @NgModule({
   declarations: [
     ListaSupermercadosComponent,
-    SupermercadoComponent
+    SupermercadoComponent,
+    ResumoComponent,
+    PagamentoComponent
   ],
   imports: [
     CommonModule,
@@ -30,6 +35,7 @@ import { DialogModule } from 'primeng/dialog';
     SharedModule,
     TabViewModule,
     DialogModule,
+    DropdownModule
   ],
   providers: [
     PedidoService,
