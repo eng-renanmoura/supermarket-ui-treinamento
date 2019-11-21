@@ -16,6 +16,7 @@ import { DialogModule } from 'primeng/dialog';
 import { ResumoComponent } from './resumo/resumo.component';
 import { PagamentoComponent } from './pagamento/pagamento.component';
 import { DropdownModule } from 'primeng/dropdown';
+import { SituacaoComponent } from './situacao/situacao.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DropdownModule } from 'primeng/dropdown';
     ListaSupermercadosComponent,
     SupermercadoComponent,
     ResumoComponent,
-    PagamentoComponent
+    PagamentoComponent,
+    SituacaoComponent
   ],
   imports: [
     CommonModule,

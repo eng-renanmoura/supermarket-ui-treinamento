@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListaSupermercadosComponent } from './lista-supermercados/lista-supermercados.component';
 import { SupermercadoComponent } from './supermercado/supermercado.component';
 import { PagamentoComponent } from './pagamento/pagamento.component';
+import { SituacaoComponent } from './situacao/situacao.component';
  
  
 const routes: Routes = [
@@ -17,7 +18,11 @@ const routes: Routes = [
  {
   path: ':pedidoId/pagamento',
   component: PagamentoComponent
-},
+ },
+ {
+  path: ':pedidoId/situacao',
+  component: SituacaoComponent
+ }
 ];
  
 @NgModule({
