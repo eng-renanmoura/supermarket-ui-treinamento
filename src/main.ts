@@ -6,7 +6,11 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
+} else {
+  alert('Rodando em modo desenvolvimento.')
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
+document.addEventListener('DOMContentLoaded', () => {
+  platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+});

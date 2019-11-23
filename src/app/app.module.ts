@@ -18,7 +18,7 @@ registerLocaleData(localePt, 'pt');
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     AppRoutingModule,
     SharedModule,
