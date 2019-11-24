@@ -7,7 +7,7 @@
         </div>
         <div class="p-col-1">
             <p-button *ngIf="!user" type="button" label="Login" styleClass="ui-button-primary" routerLink="/login"></p-button>
-            <p-button *ngIf="user" type="button" styleClass="ui-button-danger" label="Logout" (click)="logout()"></p-button>
+            <p-button *ngIf="user" type="button" styleClass="ui-button-danger" label="Logout" (click)="handleLogout()"></p-button>
         </div>
     </div>
 </nav>

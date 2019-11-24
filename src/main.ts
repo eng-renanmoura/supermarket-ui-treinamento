@@ -6,8 +6,6 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
-} else {
-  alert('Rodando em modo desenvolvimento.')
 }
 
 document.addEventListener('DOMContentLoaded', () => {
