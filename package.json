@@ -29,7 +29,7 @@
     "@nguniversal/module-map-ngfactory-loader": "8.1.1",
     "@stomp/ng2-stompjs": "^7.2.0",
     "error-stack-parser": "^2.0.4",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "primeflex": "^1.0.0",
     "primeicons": "^2.0.0",
     "primeng": "^8.0.4",
